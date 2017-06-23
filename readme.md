@@ -1,70 +1,27 @@
-###################
-What is CodeIgniter
-###################
+主機網址：140.127.218.151
+========================
+# 一般使用
+## 在左邊的Menu選擇首頁會跳轉到首頁
+## 在左邊的Menu選擇News會顯示促銷活動和精選特輯，點擊相應按鈕會出現促銷的活動最新的消息
+## .在左邊的Menu選擇在地指南，會顯示我們的地圖和交通方式。
+## 在左邊的Menu選擇聯絡我們，如果您有任何問題和建議，可以在該介面進行郵件編輯和傳送。
 
-CodeIgniter is an Application Development Framework - a toolkit - for people
-who build web sites using PHP. Its goal is to enable you to develop projects
-much faster than you could if you were writing code from scratch, by providing
-a rich set of libraries for commonly needed tasks, as well as a simple
-interface and logical structure to access these libraries. CodeIgniter lets
-you creatively focus on your project by minimizing the amount of code needed
-for a given task.
+# 若您為非會員可以：
 
-*******************
-Release Information
-*******************
+## 在左邊的Menu選擇線上訂房，會進入房型頁面，在房型頁面尋找自己心儀的房型，也可以使用上方的查詢功能選擇相應房型，點擊”詳細”會看到詳細內容，點擊”訂房”會進入訂房頁面。在訂房頁面選擇入住的時間，房間的數量，點擊”查詢空房”會進入個人資訊填寫介面，填寫完個人資訊點擊下一步訂單生成成功（ps：個人資訊系統會自動給註冊會員，默認帳號為身份證號(字母為大寫)，密碼為信箱）
 
-This repo contains in-development code for future releases. To download the
-latest stable release please visit the `CodeIgniter Downloads
-<https://codeigniter.com/download>`_ page.
+# 若您為會員可以：(帳號:S123456788 密碼:1)
 
-**************************
-Changelog and New Features
-**************************
+## 在左邊的Menu的登陸區中輸入帳號密碼登陸。
+## 登陸成功後，可以在Menu欄位選擇線上訂房，會進入房型頁面，在房型頁面尋找自己心儀的房型，也可以使用上方的查詢功能選擇相應房型，點擊”詳細”會看到詳細內容，點擊”訂房”會進入訂房頁面。在訂房頁面選擇入住的時間，房間的數量，點擊”查詢空房”會進入個人資訊填寫介面，該介面會自動提取會員資料，若資訊準確則不用再次填寫，若需修改可以進行相應的編輯，但身份證號不可編輯。點擊下一步訂單生成成功。
+## 登陸成功後，可以在Menu欄位元選擇客房點餐服務，在相應的房型後面選擇”我要訂餐”，會出現功能表，在每道菜品的最後選擇數量，但是只有入住時間和當日時間相對應才可以進行訂餐送餐服務，送餐的時間默認是點餐四十五分鐘後，也可以自主選擇。不提供提前多日訂餐服務。
+## 查詢、修改本房訂餐資訊查詢功能可以查詢和修改訂餐的資訊，若未到入住時間不可查詢修改。
+## 在左邊的Menu欄位點選會員專區，可以修改個人資料，個人密碼，也可以查詢訂房記錄，並在訂房介面進行付款和取消付款。
 
-You can find a list of all changes for each release in the `user
-guide change log <https://github.com/bcit-ci/CodeIgniter/blob/develop/user_guide_src/source/changelog.rst>`_.
-
-*******************
-Server Requirements
-*******************
-
-PHP version 5.6 or newer is recommended.
-
-It should work on 5.3.7 as well, but we strongly advise you NOT to run
-such old versions of PHP, because of potential security and performance
-issues, as well as missing features.
-
-************
-Installation
-************
-
-Please see the `installation section <https://codeigniter.com/user_guide/installation/index.html>`_
-of the CodeIgniter User Guide.
-
-*******
-License
-*******
-
-Please see the `license
-agreement <https://github.com/bcit-ci/CodeIgniter/blob/develop/user_guide_src/source/license.rst>`_.
-
-*********
-Resources
-*********
-
--  `User Guide <https://codeigniter.com/docs>`_
--  `Language File Translations <https://github.com/bcit-ci/codeigniter3-translations>`_
--  `Community Forums <http://forum.codeigniter.com/>`_
--  `Community Wiki <https://github.com/bcit-ci/CodeIgniter/wiki>`_
--  `Community IRC <https://webchat.freenode.net/?channels=%23codeigniter>`_
-
-Report security issues to our `Security Panel <mailto:security@codeigniter.com>`_
-or via our `page on HackerOne <https://hackerone.com/codeigniter>`_, thank you.
-
-***************
-Acknowledgement
-***************
-
-The CodeIgniter team would like to thank EllisLab, all the
-contributors to the CodeIgniter project and you, the CodeIgniter user.
+# 若您為管理員可以：(帳號:S123456789 密碼:1)，須點選”員工登入”連結
+## 在首頁進行圖片和資訊的編輯修改
+## 在左邊Menu欄位的管理員專區進行管理員基本資料的修改，個人密碼的修改。
+## 在左邊Menu欄位的管理員專區的訂房作業進行所有訂單的查詢和查看訂單的付款情況
+## 在左邊Menu欄位的管理員專區的餐點新增，餐點刪除進行訂餐功能表的新增，和刪除。
+## 在左邊Menu欄位元的資料分析功能提供我們的房型統計，餐點統計和月報表資料。
+## 在左邊Menu欄位元的MYSQL資料庫可以直接進入資料庫進行直接編輯。
