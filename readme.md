@@ -14,10 +14,15 @@
 
 ### 使用架構、框架
 
-* MVC(codeigniter)
 * RWD (HTML5 UP、Sass)
 * jQuery
 * Sass
+* MVC(codeigniter)
+>1. 在MVC裡面，所有的**index**都是 403 錯誤
+>2. 程式碼路徑：application/views/...
+>3. 路徑設定：application/controller/...
+>4. css/javascript路徑：assets/...
+>5. 資料庫連接：include.php
 
 ### 這是一個:虛設"的飯店網站，主要功能有：
 
